@@ -14,11 +14,13 @@ export class AppComponent {
 
   beans: Bean[] = [
     {
+      id: 1,
       name: 'Bean 1',
       description: 'This is a nice Bean',
       reviews: []
     },
     {
+      id: 2,
       name: 'Bean 2',
       description: 'This is not a nice Bean',
       reviews: []

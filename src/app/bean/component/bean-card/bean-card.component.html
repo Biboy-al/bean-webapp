@@ -1,4 +1,4 @@
-<app-card>
+<app-card class="flex flex-col">
     <card-title>
          {{this.bean().name}}
     </card-title>
@@ -6,6 +6,6 @@
         {{this.bean().description}}
     </card-content>
     <card-action>
-        This is an action
+        <button matButton="outlined">Like</button>
     </card-action>
 </app-card>

@@ -1,5 +1,6 @@
 export interface Bean{
+    id: number;
     name: string;
     description: string;
     reviews: string[];
-}
+} 
