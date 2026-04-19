@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-bean-card',
-  imports: [CardComponent, CardTitle, CardContent, CardAction, MatButtonModule],
+  imports: [CardComponent, CardTitle, CardContent, CardAction, MatButtonModule, MatIconModule],
   templateUrl: './bean-card.component.html',
   styleUrl: './bean-card.component.css'
 })

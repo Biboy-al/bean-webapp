@@ -4,7 +4,7 @@ import { BeanCardComponent } from '../../component/bean-card/bean-card.component
 
 @Component({
   selector: 'app-bean-page',
-  imports: [BeanCardComponent],
+  imports: [],
   templateUrl: './bean-page.component.html',
   styleUrl: './bean-page.component.css'
 })
