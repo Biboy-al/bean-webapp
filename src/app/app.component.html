@@ -332,13 +332,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<div class="flex gap-5 bg-black">
-  @for(bean of beans; track bean.name){
-    <app-bean-card [bean]=bean/>
-  } @empty{
-  
-  }    
-</div>
-
-
 <router-outlet />

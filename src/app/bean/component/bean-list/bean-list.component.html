@@ -1,0 +1,7 @@
+<div class="card-container">
+    @for(bean of beans; track bean.name){
+      <app-bean-card [bean]=bean/>
+    } @empty{
+    
+    }    
+  </div>

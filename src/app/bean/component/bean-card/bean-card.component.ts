@@ -1,8 +1,9 @@
-import { Component, input } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { CardAction, CardComponent, CardContent, CardTitle } from '../../../shared/component/card/card.component';
 import { Bean } from '../../model/Bean';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-bean-card',
@@ -12,4 +13,9 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class BeanCardComponent {
   bean = input.required<Bean>();
+  private router = inject(Router);
+
+  onClick = () =>{
+    this.router.navigate(['/beans', this.bean().id]);
+  };
 }
