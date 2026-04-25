@@ -1,5 +1,6 @@
 import { Component, inject, input } from '@angular/core';
-import { CardAction, CardComponent, CardContent, CardTitle } from '../../../shared/component/card/card.component';
+// import { CardAction, CardComponent, CardContent, CardTitle } from '../../../shared/component/card/card.component';
+import {CardAction, CardComponent, CardContent, CardTitle} from '@shared/component';
 import { Bean } from '../../model/Bean';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
