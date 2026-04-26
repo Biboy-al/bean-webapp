@@ -17,7 +17,14 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "types": ["jest"]
+    "types": ["jest"],
+    "paths": {
+      "@shared/component": ["./src/app/shared/component/index.ts"],
+      // "@shared/component/*": ["./src/app/shared/component/*"],
+
+      "@shared/model": ["./src/app/shared/models/index.ts"],
+      // "@shared/model/*": ["./src/app/shared/model/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

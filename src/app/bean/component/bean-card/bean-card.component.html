@@ -1,0 +1,16 @@
+<app-card (click)="onClick()" class="bean-card">
+    <card-title>
+         {{this.bean().name}}
+    </card-title>
+    <card-content>
+        {{this.bean().description}}
+    </card-content>
+    <card-action class="action-set">
+        <button matFab>
+            Favourite
+        </button>
+        <button matFab>
+            Like
+        </button>
+    </card-action>
+</app-card>
