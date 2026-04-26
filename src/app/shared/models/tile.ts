@@ -1,7 +1,7 @@
-import { TemplateRef } from "@angular/core";
+import { TemplateRef, Type } from "@angular/core";
 
 export interface Tile{
     cols: number;
     rows: number;
-    content: TemplateRef<any>;
+    content: Type<any>;
 }
